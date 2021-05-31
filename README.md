@@ -1,5 +1,3 @@
-# alexanderHportifolio
-
 # Portfolio 1 Course Assignment
 
 ## Brief
