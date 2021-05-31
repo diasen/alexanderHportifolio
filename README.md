@@ -1,7 +1,4 @@
 # alexanderHportifolio
-portifølje
-
-<img src="./.readme/noroff-light.png" width="160" align="right">
 
 # Portfolio 1 Course Assignment
 
