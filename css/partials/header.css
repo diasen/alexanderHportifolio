@@ -1,0 +1,31 @@
+header {
+	display: flex;
+}
+
+.logo_container {
+	width: 10%;
+}
+
+.logo {
+	padding: 15px;
+}
+
+.top_nav {
+	width: 90%;
+}
+
+.nav {
+	text-align: right;
+	margin-top: 30px;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+	margin: 40px;
+	font-size: 1.3rem;
+}

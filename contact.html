@@ -4,14 +4,14 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Alexander Hansen | Web developer</title>
+		<title>Document</title>
+		<link rel="stylesheet" href="/css/main.css" />
 		<link
 			rel="stylesheet"
 			href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
 			integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="/css/main.css" />
 	</head>
 	<body>
 		<header>
@@ -31,30 +31,46 @@
 			</div>
 		</header>
 		<main>
-			<div class="intro__container">
-				<div class="profile_img_container">
-					<img
-						class="profile_img"
-						src="/img/profilepic.JPG"
-						alt="picture of Alexander Hansen"
-					/>
+			<div class="main__contact">
+				<div class="bio__contact">
+					<h1 class="header">Alexander Hansen</h1>
+
+					<div class="social__bio">
+						<a class="bio__link" href="https://github.com/diasen"
+							>Github<i class="fa fa-github"></i></a
+						><a
+							class="bio__link"
+							href="https://www.linkedin.com/in/alexander-hansen-ab83ab8a/"
+							>LinkedIn<i class="fa fa-linkedin"></i
+						></a>
+					</div>
 				</div>
-				<div class="presentation_container">
-					<h1>Hello, my name is <span>Alexander Hansen</span>.</h1>
-					<h2>
-						I'm currently completing my Front-end development degree at Noroff.
-					</h2>
-				</div>
-			</div>
-			<div class="skill__container">
-				<div class="skill__card">
-					<h3>UX</h3>
-				</div>
-				<div class="skill__card">
-					<h3>Front-end</h3>
-				</div>
-				<div class="skill__card">
-					<h3>Wordpress</h3>
+				<div class="form_div">
+					<form>
+						<label for="name">Your full name</label>
+						<input type="text" name="name" id="name" />
+						<p class="error nameError">
+							(Should be more than 5 characters long)
+						</p>
+
+						<label for="email">Your email</label>
+						<input type="text" name="email" id="email" />
+						<p class="error emailError">(Must be a valid email address)</p>
+
+						<label id="message">Message</label>
+						<textarea
+							class="textbox"
+							name="text"
+							id="textbox"
+							cols="30"
+							rows="10"
+						></textarea>
+						<p class="error messageError">
+							(Should be more than 25 characters long)
+						</p>
+
+						<button class="submit__btn" id="submit">Submit</button>
+					</form>
 				</div>
 			</div>
 		</main>
@@ -76,6 +92,6 @@
 				</div>
 			</div>
 		</footer>
-		<script src="/js/script.js"></script>
+		<script src="/js/contact.js"></script>
 	</body>
 </html>

@@ -1,5 +1,10 @@
+@import url(/css/partials/styles.css);
+@import url(/css/partials/header.css);
+@import url(/css/partials/footer.css);
+@import url(/css/partials/projects.css);
+@import url(/css/partials/contact.css);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 * {
 	-webkit-box-sizing: border-box;
@@ -7,12 +12,6 @@
 	-ms-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
-}
-
-html {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
 }
 
 body {
@@ -75,80 +74,4 @@ body {
 		),
 		linear-gradient(135deg, #670d10 0%, #092756 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756',GradientType=1 );
-}
-
-header {
-	display: flex;
-}
-
-.logo_container {
-	width: 10%;
-}
-
-.logo {
-	padding: 15px;
-}
-
-.top_nav {
-	width: 90%;
-}
-
-.nav {
-	text-align: right;
-	margin-top: 30px;
-}
-
-li {
-	display: inline;
-}
-
-li a {
-	color: white;
-	text-decoration: none;
-	margin: 40px;
-	font-size: 1.3rem;
-}
-
-.profile_img_container {
-	width: 100%;
-}
-
-.profile_img {
-	width: 15%;
-	border-radius: 90%;
-	display: block;
-	margin: 20px auto 20px auto;
-}
-
-.presentation_container {
-	height: 200px;
-}
-
-h1 {
-	text-align: center;
-	color: white;
-	font-family: 'Oswald', sans-serif;
-	font-size: 2.5rem;
-	font-weight: lighter;
-	margin: 0;
-}
-
-span {
-	color: #f25c05;
-}
-
-h2 {
-	text-align: center;
-	color: white;
-	margin: 0;
-}
-
-.menu-btn {
-	display: block;
-	right: 0;
-	margin: 1em;
-	position: absolute;
-	top: 5%;
-	width: 36px;
-	transform: translate(-50%, -50%);
 }

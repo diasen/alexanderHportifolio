@@ -1,0 +1,29 @@
+footer {
+	height: 200px;
+	text-align: center;
+	color: white;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.footer__container p {
+	margin: 10px 0 10px 0;
+}
+
+.logo__footer {
+	width: 50px;
+}
+
+.fab {
+	color: white;
+	font-size: 2rem;
+	margin: 10px 10px;
+}
+
+.soMe a {
+	color: white;
+}

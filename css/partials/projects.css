@@ -1,0 +1,45 @@
+.projects__header {
+	margin-top: 50px;
+}
+
+.projects__header h1 {
+	font-weight: 400;
+	font-size: 3rem;
+}
+
+.projects__header p {
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: lighter;
+}
+
+.projects__container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 50px 0 150px 0;
+}
+
+.project__card {
+	width: 500px;
+	margin: 40px 40px 0 40px;
+}
+
+.project__card img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.project__link {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8rem;
+}
+
+.project__link h2 {
+	font-weight: bold;
+	margin-top: 10px;
+}
