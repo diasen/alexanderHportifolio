@@ -76,17 +76,18 @@ h2 {
 
 .skill__container {
 	width: 80%;
-	border: 1px solid yellow;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	margin: 0 auto 100px auto;
 }
 
 .skill__card {
-	width: 300px;
-	height: 500px;
+	width: 400px;
 	border-radius: 5px;
-	background-color: #d9d9d9;
+	border: white 5px solid;
+	color: white;
+	text-align: center;
+	background-color: #657674;
 }
 
 .skill__card h3 {

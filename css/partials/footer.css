@@ -18,7 +18,8 @@ footer {
 	width: 50px;
 }
 
-.fab {
+.fab,
+.far {
 	color: white;
 	font-size: 2rem;
 	margin: 10px 10px;
