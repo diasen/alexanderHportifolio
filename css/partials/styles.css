@@ -10,7 +10,7 @@
 }
 
 .presentation_container {
-	height: 200px;
+	height: 150px;
 }
 
 h1 {
@@ -43,9 +43,8 @@ h2 {
 }
 
 .about__container {
-	width: 100%;
-	margin-bottom: 100px;
-	background-color: black;
+	width: 70%;
+	margin: 0 auto 50px auto;
 }
 
 .about__card {
@@ -79,21 +78,30 @@ h2 {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 0 auto 100px auto;
+	background-color: black;
 }
 
 .skill__card {
-	width: 400px;
-	border-radius: 5px;
-	border: white 5px solid;
+	width: 90%;
+	margin: 0 auto 50px auto;
 	color: white;
-	text-align: center;
-	background-color: #657674;
+}
+
+.skill__btn {
+	margin: auto auto;
 }
 
 .skill__card h3 {
 	text-align: center;
+	margin: 0;
+	font-size: 1.4rem;
+}
+
+.skill__card ul {
+	margin: auto auto;
+	width: 45%;
 }
 
 .skill__card ul li {
-	display: block;
+	display: inline-block;
 }
