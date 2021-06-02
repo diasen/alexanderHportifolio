@@ -53,7 +53,7 @@ h2 {
 .skill__card {
 	width: 300px;
 	height: 500px;
-	border: red 1px solid;
+	border-radius: 5px;
 	background-color: #d9d9d9;
 }
 
