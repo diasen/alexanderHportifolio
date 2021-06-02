@@ -42,6 +42,38 @@ h2 {
 	transform: translate(-50%, -50%);
 }
 
+.about__container {
+	width: 100%;
+	margin-bottom: 100px;
+	background-color: black;
+}
+
+.about__card {
+	width: 70%;
+	margin: auto auto;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+}
+
+.about__card h3 {
+	text-align: center;
+	padding-top: 20px;
+	margin: 0;
+	font-size: 1.5rem;
+}
+
+.about__card p {
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	padding: 20px;
+	font-size: 1.125rem;
+	font-weight: lighter;
+}
+
+.about__card p a {
+	color: #f25c05;
+}
+
 .skill__container {
 	width: 80%;
 	border: 1px solid yellow;
@@ -58,5 +90,9 @@ h2 {
 }
 
 .skill__card h3 {
-	color: ;
+	text-align: center;
+}
+
+.skill__card ul li {
+	display: block;
 }
