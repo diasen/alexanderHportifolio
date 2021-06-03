@@ -32,23 +32,13 @@ h2 {
 	margin: 0;
 }
 
-.menu-btn {
-	display: block;
-	right: 0;
-	margin: 1em;
-	position: absolute;
-	top: 5%;
-	width: 36px;
-	transform: translate(-50%, -50%);
-}
-
 .about__container {
-	width: 70%;
+	width: 100%;
 	margin: 0 auto 50px auto;
 }
 
 .about__card {
-	width: 70%;
+	width: 60%;
 	margin: auto auto;
 	border-radius: 5px;
 	color: white;
@@ -78,30 +68,97 @@ h2 {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 0 auto 100px auto;
-	background-color: black;
 }
 
 .skill__card {
-	width: 90%;
+	width: 40%;
+	height: 400px;
+	margin: 0 auto 50px auto;
+	color: white;
+}
+
+.design__card {
+	width: 60%;
+	height: 400px;
 	margin: 0 auto 50px auto;
 	color: white;
 }
 
 .skill__btn {
-	margin: auto auto;
+	background-color: white;
 }
 
-.skill__card h3 {
+.skill__card,
+.design__card h3 {
 	text-align: center;
-	margin: 0;
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 }
 
 .skill__card ul {
 	margin: auto auto;
-	width: 45%;
+	width: 40%;
 }
 
 .skill__card ul li {
 	display: inline-block;
+}
+
+.icon {
+	width: 30%;
+	padding: 10px;
+	margin-left: 40px;
+}
+
+.skill_block {
+	width: 250px;
+	margin: auto auto;
+}
+
+.fe__skill {
+	text-align: center;
+	display: flex;
+}
+
+.fe__skill p {
+	padding-top: 10px;
+	font-size: 1.4rem;
+	margin: 10px;
+}
+
+.fe__design {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 50%;
+}
+
+.fe__design p {
+	margin: auto 0;
+}
+
+.adobe,
+.figma {
+	margin: 0;
+	width: 75px;
+	height: 75px;
+}
+
+.adobe {
+	margin: 0;
+	width: 75px;
+	height: 75px;
+}
+
+.design__block {
+	display: flex;
+}
+
+.design__text {
+	width: 95%;
+	margin: auto auto;
+	text-align: center;
+}
+
+.design__text p {
+	padding: 15px;
 }
