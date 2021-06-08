@@ -47,47 +47,40 @@
 			</div>
 		</header>
 		<main>
-			<div class="main__contact">
-				<div class="bio__contact">
-					<h1 class="header">Alexander Hansen</h1>
-
-					<div class="social__bio">
-						<a class="bio__link" href="https://github.com/diasen"
-							>Github<i class="fa fa-github"></i></a
-						><a
-							class="bio__link"
-							href="https://www.linkedin.com/in/alexander-hansen-ab83ab8a/"
-							>LinkedIn<i class="fa fa-linkedin"></i
-						></a>
+			<div class="form_div">
+				<form>
+					<div class="form__text">
+						<h1>Please feel free to contact me!</h1>
 					</div>
-				</div>
-				<div class="form_div">
-					<form>
-						<label for="name">Your full name</label>
-						<input type="text" name="name" id="name" />
-						<p class="error nameError">
-							(Should be more than 5 characters long)
-						</p>
+					<label for="name">Your full name</label>
+					<input type="text" name="name" id="name" />
+					<p class="error nameError">
+						Should be more than 5 characters long
+						<i class="fas fa-exclamation-circle"></i>
+					</p>
 
-						<label for="email">Your email</label>
-						<input type="text" name="email" id="email" />
-						<p class="error emailError">(Must be a valid email address)</p>
+					<label for="email">Your email</label>
+					<input type="text" name="email" id="email" />
+					<p class="error emailError">
+						Must be a valid email address
+						<i class="fas fa-exclamation-circle"></i>
+					</p>
 
-						<label id="message">Message</label>
-						<textarea
-							class="textbox"
-							name="text"
-							id="textbox"
-							cols="30"
-							rows="10"
-						></textarea>
-						<p class="error messageError">
-							(Should be more than 25 characters long)
-						</p>
+					<label id="message">Message</label>
+					<textarea
+						class="textbox"
+						name="text"
+						id="textbox"
+						cols="30"
+						rows="10"
+					></textarea>
+					<p class="error messageError">
+						Should be more than 25 characters long
+						<i class="fas fa-exclamation-circle"></i>
+					</p>
 
-						<button class="submit__btn" id="submit">Submit</button>
-					</form>
-				</div>
+					<button class="submit__btn" id="submit">Submit</button>
+				</form>
 			</div>
 		</main>
 		<footer>

@@ -1,19 +1,5 @@
-// Stop annoying page refresh!
-const submit = document.querySelector('#btn-submit'),
-	form = document.querySelector('#form');
-
-submit.addEventListener(
-	'click',
-	(e) => {
-		e.preventDefault();
-		form.reset();
-	},
-	false
-);
-
 const nameError = document.querySelector('.nameError');
 const emailError = document.querySelector('.emailError');
-const subjectError = document.querySelector('.subjectError');
 const messageError = document.querySelector('.messageError');
 const submit = document.querySelector('#submit');
 
@@ -21,7 +7,6 @@ submit.onclick = function (event) {
 	event.preventDefault();
 
 	const name = document.querySelector('#name').value.trim();
-	const subject = document.querySelector('#subject').value.trim();
 	const email = document.querySelector('#email').value.trim();
 	const textbox = document.querySelector('#textbox').value.trim();
 
@@ -39,14 +24,6 @@ submit.onclick = function (event) {
 	} else {
 		emailError.classList.add('show');
 		emailError.classList.remove('hide');
-	}
-
-	if (subject.length > 15) {
-		subjectError.classList.add('hide');
-		subjectError.classList.remove('show');
-	} else {
-		subjectError.classList.add('show');
-		subjectError.classList.remove('hide');
 	}
 
 	if (textbox.length > 25) {
