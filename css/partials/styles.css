@@ -172,3 +172,24 @@ h2 {
 .design__text p {
 	font-size: 1.25rem;
 }
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+	.skill__container {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.design__card {
+		width: 80%;
+	}
+}
+
+@media (max-width: 767px) {
+	.design__card {
+		height: 500px;
+	}
+}
