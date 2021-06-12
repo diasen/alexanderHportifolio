@@ -49,7 +49,7 @@
 .tile {
 	width: 600px;
 	height: 380px;
-	margin: 10px;
+	margin: 50px;
 	display: inline-block;
 	background-size: cover;
 	position: relative;
