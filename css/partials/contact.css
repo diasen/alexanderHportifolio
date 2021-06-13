@@ -121,6 +121,7 @@ p {
 	margin: 50px 0 50px 0;
 	font-family: 'Oswald', sans-serif;
 	font-size: 2rem;
+	font-weight: normal;
 }
 
 .contact_icon {
@@ -131,10 +132,14 @@ p {
 
 .ah__info {
 	padding: 10px;
+	display: flex;
 }
 
 .ah__info p {
 	color: white;
+	padding-top: 10px;
+	font-size: 1.4rem;
+	margin: 10px;
 }
 
 @media (max-width: 1200px) {
@@ -182,6 +187,7 @@ p {
 	.contact_icon {
 		height: 70px;
 		width: 70px;
+		margin: 0;
 	}
 
 	.ah__info {
@@ -190,5 +196,6 @@ p {
 
 	.ah__info p {
 		font-size: 16px;
+		margin: 10px 10px 10px 0;
 	}
 }
