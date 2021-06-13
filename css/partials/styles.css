@@ -100,15 +100,6 @@ h2 {
 	font-size: 1.6rem;
 }
 
-.skill__card ul {
-	margin: auto auto;
-	width: 40%;
-}
-
-.skill__card ul li {
-	display: inline-block;
-}
-
 .icon {
 	width: 30%;
 	padding: 10px;

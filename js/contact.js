@@ -10,7 +10,7 @@ submit.onclick = function (event) {
 	const email = document.querySelector('#email').value.trim();
 	const textbox = document.querySelector('#textbox').value.trim();
 
-	if (testLen(name, 1)) {
+	if (testLen(name, 3)) {
 		nameError.classList.add('hide');
 		nameError.classList.remove('show');
 	} else {
@@ -26,7 +26,7 @@ submit.onclick = function (event) {
 		emailError.classList.remove('hide');
 	}
 
-	if (textbox.length > 25) {
+	if (textbox.length > 9) {
 		messageError.classList.add('hide');
 		messageError.classList.remove('show');
 	} else {
