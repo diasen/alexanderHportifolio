@@ -36,14 +36,27 @@
 					><img class="logo" src="/img/logo3.svg" alt=""
 				/></a>
 			</div>
-			<div class="top_nav">
-				<div class="nav">
-					<ul>
-						<li><a class="active" href="/index.html">Home</a></li>
-						<li><a class="active" href="/projects.html">Projects</a></li>
-						<li><a class="active" href="/contact.html">Contact</a></li>
+			<div class="nav__container">
+				<nav class="navbar">
+					<ul class="navigation__menu">
+						<li class="nav-item">
+							<a href="/index.html" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="/projects.html" class="nav-link"
+								><class class="underline">Projects</class></a
+							>
+						</li>
+						<li class="nav-item">
+							<a href="/contact.html" class="nav-link">Contact</a>
+						</li>
 					</ul>
-				</div>
+					<div class="hamburger">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</div>
+				</nav>
 			</div>
 		</header>
 		<main>
@@ -63,7 +76,7 @@
 						</p>
 						<p class="animate-text">
 							<a href="https://vibrant-minsky-cea1c1.netlify.app/index.html"
-								>Click here to go to site</a
+								><span>Click here</span> to go to site</a
 							>
 						</p>
 					</div>
@@ -79,7 +92,7 @@
 						</p>
 						<p class="animate-text">
 							<a href="https://eloquent-ptolemy-c81500.netlify.app"
-								>Click here to go to site</a
+								><span>Click here</span> to go to site</a
 							>
 						</p>
 					</div>
@@ -95,7 +108,7 @@
 						</p>
 						<p class="animate-text">
 							<a href="https://vigilant-dubinsky-f88f55.netlify.app"
-								>Click here to go to site</a
+								><span>Click here</span> to go to site</a
 							>
 						</p>
 					</div>
@@ -111,7 +124,7 @@
 						</p>
 						<p class="animate-text">
 							<a href="https://hopeful-goodall-2dbf41.netlify.app"
-								>Click here to go to site</a
+								><span>Click here</span> to go to site</a
 							>
 						</p>
 					</div>
@@ -138,6 +151,6 @@
 				</div>
 			</div>
 		</footer>
-		<script src="/js/projects.js"></script>
+		<script src="/js/component/hamburger.js"></script>
 	</body>
 </html>

@@ -1,21 +1,17 @@
 .main__contact {
-	border: pink 1px solid;
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
 }
 
 .contact__info {
-	border: green 1px solid;
 	width: 40%;
 	margin: 100px 0;
 }
 
 .form_div {
 	margin: 100px 0;
-	border: 5px solid var(--main-color);
 	width: 60%;
-	border: 1px solid yellow;
 }
 
 form {
@@ -29,7 +25,7 @@ form {
 	color: white;
 	font-family: 'Oswald', sans-serif;
 	font-weight: normal;
-	font-size: 3rem;
+	font-size: 2.5rem;
 }
 
 input[type='text'] {
@@ -118,12 +114,13 @@ p {
 }
 
 .contact__container {
-	border: white 1px solid;
 	display: flex;
 }
 
 .contact__info h2 {
 	margin: 50px 0 50px 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
 }
 
 .contact_icon {
@@ -147,16 +144,20 @@ p {
 
 	.form_div {
 		width: 100%;
+		margin: 0;
 	}
 
 	.contact__info {
-		border: green 1px solid;
 		width: 100%;
-		margin: 100px 0;
+		margin: 50px 0 100px 0;
 	}
 
 	.contact_icon {
 		width: 10%;
+	}
+
+	.fe__skill {
+		margin-left: 150px;
 	}
 }
 
@@ -164,6 +165,9 @@ p {
 }
 
 @media (max-width: 767px) {
+	.form__text h1 {
+		font-size: 2rem;
+	}
 	.error {
 		width: 100%;
 		height: 60px;
@@ -176,7 +180,12 @@ p {
 	}
 
 	.contact_icon {
-		min-width: 10%;
+		height: 70px;
+		width: 70px;
+	}
+
+	.fe__skill {
+		margin: 0;
 	}
 
 	.fe__skill p {

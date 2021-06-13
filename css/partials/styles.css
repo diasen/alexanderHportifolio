@@ -30,7 +30,9 @@ h2 {
 	text-align: center;
 	color: white;
 	margin: 0;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
+	font-weight: lighter;
+	font-family: 'Oswald', sans-serif;
 }
 
 .about__container {
@@ -50,13 +52,14 @@ h2 {
 	text-align: center;
 	padding-top: 20px;
 	margin: 0;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
+	font-family: 'Oswald', sans-serif;
 }
 
 .about__card p {
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	padding: 20px;
-	font-size: 1.125rem;
+	font-size: 1.25rem;
 	font-weight: lighter;
 }
 
@@ -93,11 +96,13 @@ h2 {
 .design__card h3 {
 	text-align: center;
 	font-size: 1.6rem;
+	font-family: 'Oswald', sans-serif;
 }
 
 .skill__card h3 {
 	text-align: center;
 	font-size: 1.6rem;
+	font-family: 'Oswald', sans-serif;
 }
 
 .icon {
@@ -164,10 +169,26 @@ h2 {
 	font-size: 1.25rem;
 }
 
+.face img {
+	width: 100%;
+	height: 50%;
+}
+
 @media (max-width: 1200px) {
+	.about__card {
+		width: 80%;
+		margin: auto auto;
+		border-radius: 5px;
+		color: white;
+		text-align: center;
+	}
 }
 
 @media (max-width: 991px) {
+	.profile_img {
+		width: 20%;
+	}
+
 	.skill__container {
 		width: 100%;
 		display: flex;
@@ -180,12 +201,11 @@ h2 {
 }
 
 @media (max-width: 767px) {
+	.profile_img {
+		width: 25%;
+	}
+
 	.design__card {
 		height: 500px;
 	}
-}
-
-.face img {
-	width: 100%;
-	height: 50%;
 }
