@@ -93,15 +93,11 @@ h2 {
 	background-color: white;
 }
 
-.design__card h3 {
+.design__card,
+.skill__card,
+h3 {
 	text-align: center;
-	font-size: 1.6rem;
-	font-family: 'Oswald', sans-serif;
-}
-
-.skill__card h3 {
-	text-align: center;
-	font-size: 1.6rem;
+	font-size: 1.625rem;
 	font-family: 'Oswald', sans-serif;
 }
 
@@ -140,12 +136,6 @@ h2 {
 
 .adobe,
 .figma {
-	margin: 0;
-	width: 75px;
-	height: 75px;
-}
-
-.adobe {
 	margin: 0;
 	width: 75px;
 	height: 75px;
