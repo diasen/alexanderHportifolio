@@ -1,8 +1,22 @@
+.main__contact {
+	border: pink 1px solid;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact__info {
+	border: green 1px solid;
+	width: 30%;
+	margin: 100px 0;
+}
+
 .form_div {
-	margin: 100px auto;
+	margin: 100px 0;
 	border-radius: 5px;
 	border: 5px solid var(--main-color);
-	width: 80%;
+	width: 60%;
+	border: 1px solid yellow;
 }
 
 form {
