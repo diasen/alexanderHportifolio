@@ -170,4 +170,16 @@ p {
 		padding: 8px;
 		margin-top: 10px;
 	}
+
+	button {
+		width: 50%;
+	}
+
+	.contact_icon {
+		min-width: 10%;
+	}
+
+	.fe__skill p {
+		font-size: 16px;
+	}
 }
