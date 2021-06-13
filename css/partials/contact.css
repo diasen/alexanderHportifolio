@@ -129,11 +129,11 @@ p {
 	margin-left: 40px;
 }
 
-.fe__skill {
+.ah__info {
 	padding: 10px;
 }
 
-.fe__skill p {
+.ah__info p {
 	color: white;
 }
 
@@ -156,7 +156,7 @@ p {
 		width: 10%;
 	}
 
-	.fe__skill {
+	.ah__info {
 		margin-left: 150px;
 	}
 }
@@ -184,11 +184,11 @@ p {
 		width: 70px;
 	}
 
-	.fe__skill {
+	.ah__info {
 		margin: 0;
 	}
 
-	.fe__skill p {
+	.ah__info p {
 		font-size: 16px;
 	}
 }

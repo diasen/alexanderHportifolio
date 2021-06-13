@@ -76,7 +76,7 @@ h2 {
 }
 
 .skill__card {
-	width: 40%;
+	width: 60%;
 	height: 400px;
 	margin: 0 auto 50px auto;
 	color: white;
@@ -205,7 +205,39 @@ h2 {
 		width: 25%;
 	}
 
+	.presentation_container h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+		padding: 15px;
+	}
+
+	.about__card h3 {
+		padding-top: 70px;
+	}
+
+	.about__card p {
+		font-size: 1.125rem;
+	}
+
 	.design__card {
 		height: 500px;
+	}
+
+	.design__text p {
+		font-size: 1.125rem;
+	}
+
+	.skill__container {
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+		margin: 0 auto 200px auto;
+	}
+
+	.icon {
+		margin-left: 10px;
 	}
 }
