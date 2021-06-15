@@ -94,6 +94,7 @@ a {
 	}
 
 	.navigation__menu.active {
+		padding: 0;
 		left: 0;
 		z-index: 1;
 		background-color: -moz-radial-gradient(
