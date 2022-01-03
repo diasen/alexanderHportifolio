@@ -1,230 +1,233 @@
 .profile_img_container {
-	width: 100%;
+  width: 100%;
 }
 
 .profile_img {
-	width: 15%;
-	border-radius: 90%;
-	display: block;
-	margin: 20px auto 20px auto;
+  width: 15%;
+  border-radius: 90%;
+  display: block;
+  margin: 20px auto 20px auto;
 }
 
 .presentation_container {
-	height: 150px;
+  height: 150px;
 }
 
 .presentation_container h1 {
-	text-align: center;
-	color: white;
-	font-family: 'Oswald', sans-serif;
-	font-size: 3rem;
-	font-weight: normal;
-	margin: 0;
+  text-align: center;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+  margin: 0;
 }
 
 span {
-	color: #f25c05;
+  color: #f25c05;
 }
 
 h2 {
-	text-align: center;
-	color: white;
-	margin: 0;
-	font-size: 1.8rem;
-	font-weight: lighter;
-	font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: lighter;
+  font-family: 'Oswald', sans-serif;
 }
 
 .about__container {
-	width: 100%;
-	margin: 0 auto 50px auto;
+  width: 100%;
+  margin: 0 auto 50px auto;
 }
 
 .about__card {
-	width: 60%;
-	margin: auto auto;
-	border-radius: 5px;
-	color: white;
-	text-align: center;
+  width: 60%;
+  margin: auto auto;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
 }
 
 .about__card h3 {
-	text-align: center;
-	padding-top: 20px;
-	margin: 0;
-	font-size: 1.6rem;
-	font-family: 'Oswald', sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: 'Oswald', sans-serif;
 }
 
 .about__card p {
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	padding: 20px;
-	font-size: 1.25rem;
-	font-weight: lighter;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 20px;
+  font-size: 1.25rem;
+  font-weight: lighter;
 }
 
 .about__card p a {
-	color: #f25c05;
-	font-weight: bolder;
+  color: #f25c05;
+  font-weight: bolder;
 }
 
 .skill__container {
-	width: 80%;
-	display: flex;
-	justify-content: space-evenly;
-	margin: 0 auto 100px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto 100px auto;
 }
 
 .skill__card {
-	width: 60%;
-	height: 400px;
-	margin: 0 auto 50px auto;
-	color: white;
+  width: 60%;
+  height: 400px;
+  margin: 0 auto 50px auto;
+  color: white;
 }
 
 .design__card {
-	width: 60%;
-	height: 400px;
-	margin: 0 auto 50px auto;
-	color: white;
+  width: 60%;
+  height: 400px;
+  margin: 0 auto 50px auto;
+  color: white;
 }
 
 .skill__btn {
-	background-color: white;
+  background-color: white;
 }
 
 .design__card,
 .skill__card,
 h3 {
-	text-align: center;
-	font-size: 1.625rem;
-	font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 1.625rem;
+  font-family: 'Oswald', sans-serif;
 }
 
 .icon {
-	width: 30%;
-	padding: 10px;
-	margin-left: 40px;
+  width: 30%;
+  padding: 10px;
+  margin-left: 40px;
 }
 
 .skill_block {
-	width: 250px;
-	margin: auto auto;
+  width: 250px;
+  margin: auto auto;
 }
 
 .fe__skill {
-	text-align: center;
-	display: flex;
+  text-align: center;
+  display: flex;
 }
 
 .fe__skill p {
-	padding-top: 10px;
-	font-size: 1.4rem;
-	margin: 10px;
+  padding-top: 10px;
+  font-size: 1.4rem;
+  margin: 10px;
 }
 
 .fe__design {
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
 }
 
 .fe__design p {
-	margin: auto 0;
-	font-size: 1.375rem;
+  margin: auto 0;
+  font-size: 1.375rem;
 }
 
 .adobe,
 .figma {
-	margin: 0;
-	width: 75px;
-	height: 75px;
+  margin: 0;
+  width: 75px;
+  height: 75px;
 }
 
 .design__block {
-	display: flex;
+  display: flex;
 }
 
 .design__text {
-	width: 95%;
-	margin: auto auto;
-	text-align: center;
+  width: 95%;
+  margin: auto auto;
+  text-align: center;
 }
 
 .design__text p {
-	padding: 15px;
+  padding: 15px;
 }
 
 .design__text p {
-	font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .face img {
-	width: 100%;
-	height: 50%;
+  width: 100%;
+  height: 50%;
 }
 
 @media (max-width: 1200px) {
-	.about__card {
-		width: 80%;
-	}
+  .about__card {
+    width: 80%;
+  }
 }
 
 @media (max-width: 991px) {
-	.profile_img {
-		width: 20%;
-	}
+  .profile_img {
+    width: 20%;
+  }
 
-	.skill__container {
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-	}
+  .skill__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 
-	.design__card {
-		width: 80%;
-	}
+  .design__card {
+    width: 80%;
+  }
+
+  .myDesign {
+    margin-top: 100px;
+  }
 }
 
 @media (max-width: 767px) {
-	.profile_img {
-		width: 25%;
-	}
+  .profile_img {
+    width: 25%;
+  }
 
-	.presentation_container h1 {
-		font-size: 2rem;
-	}
+  .presentation_container h1 {
+    font-size: 2rem;
+  }
 
-	h2 {
-		font-size: 1.5rem;
-		padding: 15px;
-	}
+  h2 {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
 
-	.about__card h3 {
-		padding-top: 70px;
-	}
+  .about__card h3 {
+    padding-top: 70px;
+  }
 
-	.about__card p {
-		font-size: 1.125rem;
-	}
+  .about__card p {
+    font-size: 1.125rem;
+  }
 
-	.design__card {
-		height: 500px;
-	}
+  .design__card {
+    height: 500px;
+  }
 
-	.design__text p {
-		font-size: 1.125rem;
-	}
+  .design__text p {
+    font-size: 1.125rem;
+  }
 
-	.skill__container {
-		width: 100%;
-		display: flex;
-		justify-content: space-evenly;
-		margin: 0 auto 200px auto;
-	}
+  .skill__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
 
-	.icon {
-		margin-left: 10px;
-	}
+  .icon {
+    margin-left: 10px;
+  }
 }
