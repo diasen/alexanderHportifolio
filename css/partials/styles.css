@@ -48,19 +48,12 @@ h2 {
   text-align: center;
 }
 
-.about__card h3 {
-  text-align: center;
-  padding-top: 20px;
-  margin: 0;
-  font-size: 1.6rem;
-  font-family: 'Oswald', sans-serif;
-}
-
 .about__card p {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   padding: 20px;
   font-size: 1.25rem;
-  font-weight: lighter;
+  font-weight: normal;
+  line-height: 1.6;
 }
 
 .about__card p a {

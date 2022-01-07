@@ -1,131 +1,140 @@
 .projects__header {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .projects__header h1 {
-	font-weight: 400;
-	font-size: 3rem;
-	color: white;
-	text-align: center;
-	font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 
 .projects__header p {
-	color: white;
-	text-align: center;
-	margin-top: 20px;
-	font-weight: normal;
-	font-size: 1.25rem;
-	font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 1.25rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .projects__container {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	margin: 50px 0 50px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0 50px 0;
 }
 
 .project__link {
-	color: white;
-	text-decoration: none;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 0.8rem;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
 }
 
 .project__link h2 {
-	font-weight: bold;
-	margin-top: 10px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .card {
-	width: 600px;
-	height: 380px;
-	margin: 50px;
-	display: inline-block;
-	background-size: cover;
-	position: relative;
-	transition: all 0.4s ease-out;
-	box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
-	overflow: hidden;
-	color: white;
-	font-family: 'Roboto';
-	border-radius: 10px;
+  width: 600px;
+  height: 380px;
+  margin: 50px;
+  display: inline-block;
+  background-size: cover;
+  position: relative;
+  transition: all 0.4s ease-out;
+  box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
+  overflow: hidden;
+  color: white;
+  font-family: 'Roboto';
+  border-radius: 10px;
 }
 
 .card img {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 0;
-	transition: all 0.4s ease-out;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: all 0.4s ease-out;
 }
 
 .card .text {
-	position: absolute;
-	padding: 40px;
-	height: calc(100% - 60px);
+  position: absolute;
+  padding: 40px;
+  height: calc(100% - 60px);
 }
 
 .card h2 {
-	font-weight: bold;
-	margin: 60px 0 0 0;
-	font-size: 1.75rem;
-	transform: translateX(200px);
-	font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  margin: 60px 0 0 0;
+  font-size: 1.75rem;
+  transform: translateX(200px);
+  font-family: 'Oswald', sans-serif;
 }
 
 .card p {
-	font-weight: normal;
-	margin: 20px 0 0 0;
-	line-height: 25px;
-	font-size: 1.125rem;
-	transform: translateX(-200px);
-	transition-delay: 0.2s;
-	font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  margin: 20px 0 0 0;
+  line-height: 25px;
+  font-size: 1.125rem;
+  transform: translateX(-200px);
+  transition-delay: 0.2s;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .hover-text {
-	opacity: 0;
-	transition: all 0.6s ease-in-out;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .card:hover {
-	box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.64);
-	transform: scale(1.05);
+  box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.64);
+  transform: scale(1.05);
 }
 
 .card:hover img {
-	opacity: 0.2;
+  opacity: 0.2;
 }
 
 .card:hover .hover-text {
-	transform: translateX(0);
-	opacity: 1;
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .card:hover span {
-	opacity: 1;
-	transform: translateY(0px);
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 .hover-text a {
-	text-decoration: none;
-	color: white;
-	font-weight: bold;
-	color: white;
-	text-align: center;
-	font-size: 1.25rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 1.25rem;
 }
 
 .hover-text span {
-	color: #f25c05;
-	font-size: 1.375rem;
+  color: #f25c05;
+  font-size: 1.375rem;
+}
+
+.site-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.gitCode-link {
+  font-weight: lighter;
 }
 
 @media (max-width: 1200px) {
@@ -135,40 +144,40 @@
 }
 
 @media (max-width: 767px) {
-	.projects__header h1 {
-		font-weight: 400;
-		font-size: 2rem;
-		color: white;
-		text-align: center;
-	}
+  .projects__header h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+  }
 
-	.card {
-		width: 95%;
-		height: 350px;
-		margin: 0 0 50px 0;
-	}
+  .card {
+    width: 95%;
+    height: 350px;
+    margin: 0 0 50px 0;
+  }
 
-	.card h2 {
-		margin: 35px 0 0 0;
-	}
+  .card h2 {
+    margin: 35px 0 0 0;
+  }
 
-	.card .text {
-		padding: 0;
-	}
+  .card .text {
+    padding: 0;
+  }
 
-	.card h2 {
-		font-size: 1.5rem;
-	}
+  .card h2 {
+    font-size: 1.5rem;
+  }
 
-	.card p {
-		font-size: 1rem;
-	}
+  .card p {
+    font-size: 1rem;
+  }
 
-	.hover-text a {
-		font-size: 1rem;
-	}
+  .hover-text a {
+    font-size: 1rem;
+  }
 
-	.hover-text span {
-		font-size: 1.175rem;
-	}
+  .hover-text span {
+    font-size: 1.175rem;
+  }
 }
